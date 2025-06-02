@@ -1,0 +1,4 @@
+Actors Task:
+The Player in this case does little other than holding information about it's current state. As for the states in the StateMachine for Player, they should be "active", "dead", "trapped". The Player class will probably need more than I have down on the UML, so feel free to pick up in any areas which are lacking, stuff we don't know we can discuss next meeting.
+
+For the Enemy, the getNextAction() methods should calculate the Enemy's next position and return a string representing the direction moved, i.e. "up", "down", "left" or "right". If you want, you can create an array of recently visited tiles to better calculate actions, but that's your choice. The version with the parameters is fed to the Enemy when the Enemy is in sight range of the Player, so the movement should make the enemy move towards the player.

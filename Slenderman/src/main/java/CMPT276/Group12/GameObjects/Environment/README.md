@@ -1,0 +1,2 @@
+Environment Task:
+Building this out involves building out Mechanics/Cell.java which is the data structure which communicates with the Map, and holds the Environment objects. The idea is the Map consists of Cells, each Cell can be Ground (traversable) or a Wall (not traversable). Ground Cells can also have Rewards or Punishments on them, when painting a Cell the ground's sprite should be first, etc (layering).
